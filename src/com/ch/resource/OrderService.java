@@ -26,7 +26,9 @@ public class OrderService {
 		int c = 0;
 		while((c=in.read()) != -1) {
 			buffer.append((char)c);
+			System.out.println("haiiii")
 			//Hi this is praveen kumar working with git hub
+		
 		}
 		return buffer.toString() + " 123 ";
 		//Once again tyring to modify the current code
